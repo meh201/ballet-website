@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-header {
-  background: url(../img/banner.jpeg) no-repeat;
+  background: url("https://cf.ltkcdn.net/dance/images/std/228623-676x450-ballet-dancer-practicing.jpg") no-repeat;
   background-size: cover;
   min-height: 610px;
 }
