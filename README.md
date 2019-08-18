@@ -18,7 +18,7 @@ Important Commands
  	---- Make sure you are in the correct folder in the terminal for commands 2 and 3 ---- (cd ~/Jottacloud/BalletClubWebsite/ballet-website/)
   2.) zip them up using this command
 
-  	tar -cvf website.tar css js contactform fonts index.html carmen.jpg fancyfree.jpg Logo10.png party.jpg randj.jpg snow.jpg vogue.jpg
+  	tar -cvf website.tar css js fonts index.html Logo10.png
   						 ^files and folders to include in the compressed file
 
   3.) Push your changes to the git
