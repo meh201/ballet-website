@@ -111,20 +111,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .top-title {
   z-index: 5;
-  font-size: 27px;
+  font-size: 45px;
   font-weight: 700;
   color: black;
-  line-height: 38px;
+  line-height: 125px;
   letter-spacing: 4px;
   opacity: 1;
   text-transform: uppercase;
 }
 
 .sub-title {
-  font-size: 50px;
+  font-size: 20px;
   font-weight: 700;
   color: black;
-  line-height: 71px;
+  line-height: 25px;
   letter-spacing: 4px;
   opacity: 1;
   text-transform: uppercase;
