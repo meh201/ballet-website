@@ -30,16 +30,22 @@ Important Commands
   4.) send the tar file to the server 
 
   	sftp meh201@unixs.cssd.pitt.edu:public/html <<< $'put website.tar'
+  	
+  	-------
+  	to send to ballet server:
+  	sftp meh201@unixs.cssd.pitt.edu:../../../s/o/sorc/public/html/ballet <<< $'put website.tar'
 
   5.) ssh into the pitt server
 
   	ssh meh201@unixs.cssd.pitt.edu
 
-  	--- when you get login information for the ballet club it is {username}@unixs.cssd.pitt.edu ---
-
   6.) navigate to the correct directory
   	
   	cd public/html
+  	
+  	------
+  	to go to ballet server:
+  	cd ../../../s/o/sorc/public/html/ballet
 
   7.) extract the tar file
   	
