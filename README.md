@@ -29,8 +29,6 @@ Important Commands
   		1.)enter information your prompted for
 
   4.) send the tar file to the server 
-
-  	sftp meh201@unixs.cssd.pitt.edu:public/html <<< $'put website.tar'
   	
   	-------
   	to send to ballet server:
@@ -41,8 +39,6 @@ Important Commands
   	ssh meh201@unixs.cssd.pitt.edu
 
   6.) navigate to the correct directory
-  	
-  	cd public/html
   	
   	------
   	to go to ballet server:
