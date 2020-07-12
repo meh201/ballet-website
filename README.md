@@ -22,9 +22,10 @@ Important Commands
   						 ^files and folders to include in the compressed file
 
   3.) Push your changes to the git
-  	a.) git add .
-  	b.) git commit -m "description of changes you made"
-  	c.) git push
+  
+  	- git add .
+  	- git commit -m "description of changes you made"
+  	- git push
   		1.)enter information your prompted for
 
   4.) send the tar file to the server 
