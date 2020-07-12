@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 /**media Queries**/
 
 .navbar-default {
-  background-color: transparent;
+background-color: rgba(0, 0, 0, 0);
 }
 
 .main-header {
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-nav-collapse {
-  background: rgba(0, 0, 0, 0);
+  background-color: rgba(133, 131, 131, 0.7);
   padding: 25px 0;
 }
 
