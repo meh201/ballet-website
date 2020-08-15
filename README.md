@@ -53,7 +53,7 @@ Git bash
     Of course you can also use the text editors your OS already has installed 
     
     - Notepad (Windows)
-    - TextEdit
+    - TextEdit (MacOs)
     
 - Now that you have a text editor, use it to open the folder you just downloaded ~/Documents/ballet-website
 
