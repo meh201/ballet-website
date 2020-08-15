@@ -1,7 +1,6 @@
-# ask user for email associated with github
-# github username
-# pitt username
+#!/bin/bash
 
+# ask user for email associated with github, their github username and their pitt username
 echo 'Pitt Username: '
 read -r pitt_user
 echo 'Email you used for github: '
