@@ -23,7 +23,7 @@ if [ "$git_user" = "" ];  then
   read -r git_user
 fi
 echo 'Git Password: '
-read -r git_pass
+read -rs git_pass
 echo 'What changes did you make?: '
 read -r commit_msg
 

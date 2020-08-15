@@ -53,7 +53,7 @@ Git bash
     Of course you can also use the text editors your OS already has installed 
     
     - Notepad (Windows)
-    - Text Editor (MacOs) #FIXME name of mac program
+    - TextEdit
     
 - Now that you have a text editor, use it to open the folder you just downloaded ~/Documents/ballet-website
 
@@ -67,7 +67,9 @@ Git bash
  2.) Make edits
  
  3.) Push changes to server and git
-
+ 
+ During this step you will be asked for passwords multiple times, when you are typing it will look like nothing is happening,
+ but I promise it is! Thats just how the terminal inputs passwords
     
     ./deploy
     
