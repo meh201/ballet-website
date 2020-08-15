@@ -11,4 +11,4 @@ read -r git_user
 git config user.email "${email}"
 git config user.name "${git_user}"
 
-printf "%s\n%s\n%s" "${pitt_user}" "${email}" "${git_user}" > user_config.txt
+printf "%s\n%s\n%s\n" "${pitt_user}" "${email}" "${git_user}" > user_config.txt
