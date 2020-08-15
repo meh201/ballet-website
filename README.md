@@ -24,22 +24,21 @@ Git bash
 
 - Open git bash (windows) or terminal (macos) and navigate to where you would like the folder to be
 
+    ```cd Documents```
+    
 
-    cd Documents
-    
-    
 - run this command to "clone" this repository, this will download all the files
 
 
-    git clone https://github.com/theheuman/ballet-website.git
+    ```git clone https://github.com/theheuman/ballet-website.git```
     
 
 - run setup script
 
 
-    chmod +x setup
+    ```chmod +x setup```
     
-    ./setup
+    ```./setup```
     
 
 - Download a program you will use to edit the website.
