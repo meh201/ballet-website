@@ -28,7 +28,7 @@ echo 'What changes did you make?: '
 read -r commit_msg
 
 # compress files
-tar -cvf website.tar css js fonts index.html BALLETCLUBLOGO.png
+tar -cf website.tar css js fonts index.html BALLETCLUBLOGO.png
 
 # push to git
 git add .
@@ -38,4 +38,4 @@ git push https://"$git_user":"$git_pass"@github.com/theheuman/ballet-website.git
 # send the file to server
 sftp -c aes128-cbc "${pitt_user}"@unixs.cssd.pitt.edu:../../../s/o/sorc/public/html/ballet <<< $'put website.tar'
 
-ssh -c aes128-cbc "${pitt_user}"@unixs.cssd.pitt.edu 'tar -xf ../../../s/o/sorc/public/html/ballet/website.tar ../../../s/o/sorc/public/html/ballet'
+ssh -c aes128-cbc "${pitt_user}"@unixs.cssd.pitt.edu 'tar -xvf ../../../s/o/sorc/public/html/ballet/website.tar ../../../s/o/sorc/public/html/ballet'
