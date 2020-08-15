@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# read from config file
+config_file='user_config.txt'
+n=0
+while read -r line; do
+  # reading each line
+  if [ $n = 0 ]; then
+    pitt_user=$line
+  elif [ $n = 2 ]; then
+    git_user=$line
+  fi
+  n=$((n+1))
+done < $config_file
+
+# user input
+if [ "$pitt_user" = "" ]; then
+  echo 'Pitt Username: '
+  read -r pitt_user
+fi
+if [ "$git_user" = "" ];  then
+  echo 'Git Username: '
+  read -r git_user
+fi
+echo 'Git Password: '
+read -r git_pass
+echo 'What changes did you make?: '
+read -r commit_msg
+
+# compress files
+tar -cvf website.tar css js fonts index.html BALLETCLUBLOGO.png
+
+# push to git
+git add .
+git commit -m "${commit_msg}"
+git push https://"$git_user":"$git_pass"@github.com/theheuman/ballet-website.git
+
+# send the file to server
+sftp -c aes128-cbc "${pitt_user}"@unixs.cssd.pitt.edu:../../../s/o/sorc/public/html/ballet <<< $'put website.tar'
+
+ssh -c aes128-cbc "${pitt_user}"@unixs.cssd.pitt.edu 'tar -xf ../../../s/o/sorc/public/html/ballet/website.tar ../../../s/o/sorc/public/html/ballet'
