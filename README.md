@@ -66,54 +66,13 @@ Git bash
      
  2.) Make edits
  
- 3.) Push changes to server
+ 3.) Push changes to server and git
 
     
-    ./deploy_to_server
+    ./deploy
     
- 
- 4.) Push changes to this repository
 
-
-  	- git add .
-  	- git commit -m "description of changes you made"
-  	- git push
-  		1.)enter information your prompted for
-
-
-2.) zip them up using this command
-
-  	tar -cvf website.tar css js fonts index.html BALLETCLUBLOGO.png
-  						 ^files and folders to include in the compressed file
-
-  3.) Push your changes to the git
-  
-  	- git add .
-  	- git commit -m "description of changes you made"
-  	- git push
-  		1.)enter information your prompted for
-
-  4.) send the tar file to the server 
-  	
-  	-------
-  	to send to ballet server:
-  	sftp meh201@unixs.cssd.pitt.edu:../../../s/o/sorc/public/html/ballet <<< $'put website.tar'
-
-  5.) ssh into the pitt server
-
-  	ssh meh201@unixs.cssd.pitt.edu
-
-  6.) navigate to the correct directory
-  	
-  	------
-  	to go to ballet server:
-  	cd ../../../s/o/sorc/public/html/ballet
-
-  7.) extract the tar file
-  	
-  	tar -xvf website.tar
-
-  8.) profit 
+ 4.) profit 
 
 
 
