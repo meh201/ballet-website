@@ -27,11 +27,21 @@ Git bash
 
     cd Documents
     
+    
 - run this command to "clone" this repository, this will download all the files
 
 
     git clone https://github.com/theheuman/ballet-website.git
     
+
+- run setup script
+
+
+    chmod +x setup
+    
+    ./setup
+    
+
 - Download a program you will use to edit the website.
     
     - Maya used [sublime]()
@@ -58,11 +68,7 @@ Git bash
  2.) Make edits
  
  3.) Push changes to server
-  
-  the first command is only necessary first time you run it
-   
-   
-    chmod +x deploy_to_server
+
     
     ./deploy_to_server
     
