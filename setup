@@ -1,0 +1,15 @@
+# ask user for email associated with github
+# github username
+# pitt username
+
+echo 'Pitt Username: '
+read -r pitt_user
+echo 'Email you used for github: '
+read -r email
+echo 'Git Username: '
+read -r git_user
+
+git config user.email "${email}"
+git config user.name "${git_user}"
+
+printf "%s\n%s\n%s" "${pitt_user}" "${email}" "${git_user}" > user_config.txt
