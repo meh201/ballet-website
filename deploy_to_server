@@ -36,6 +36,9 @@ git commit -m "${commit_msg}"
 git push https://"$git_user":"$git_pass"@github.com/theheuman/ballet-website.git
 
 # send the file to server
+echo "Enter your pitt password"
 sftp -c aes128-cbc "${pitt_user}"@unixs.cssd.pitt.edu:../../../s/o/sorc/public/html/ballet <<< $'put website.tar'
 
+
+echo "Enter your pitt password (Again)"
 ssh -c aes128-cbc "${pitt_user}"@unixs.cssd.pitt.edu 'tar -xvf ../../../s/o/sorc/public/html/ballet/website.tar ../../../s/o/sorc/public/html/ballet'
