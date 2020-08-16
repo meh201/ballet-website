@@ -14,11 +14,11 @@ The first thing you will do, regardless of system is create a [github account](h
 
 Windows setup will require an additional step, namely downloading a program called
 
-Git bash
+
 
 <a href="https://gitforwindows.org/">
-<img src="https://gitforwindows.org/img/git_logo.png" alt="Git Bash Logo" data-canonical-src="https://gitforwindows.org/img/git_logo.png" width="200" height="200" />
-</a>
+<img src="https://gitforwindows.org/img/git_logo.png" alt="Git Bash Logo" data-canonical-src="https://gitforwindows.org/img/git_logo.png" width="50" height="50" />
+</a> Git bash
 
 ### Instructions
 
@@ -43,12 +43,12 @@ Git bash
 
 - Download a program you will use to edit the website.
     
-    - Maya used [sublime]()
-    - [Atom]()
-    - [Vim]() Dont do this, or you'll find yourself the subject of the [vim meme](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpics.conservativememes.com%2Fwhen-you-finally-exit-vim-you-know-im-something-of-41849715.png&f=1&nofb=1)
-    - [Emacs]() Dont do this either, lol
-    
-    - I like using jet brain's IDEs and you can download [pycharm]() for free
+    - <a href="https://www.sublimetext.com/3"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.juoSVspxa-tcDmyNFDxWlQAAAA%26pid%3DApi&f=1" alt="Sublime Logo" data-canonical-src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.juoSVspxa-tcDmyNFDxWlQAAAA%26pid%3DApi&f=1" width="20" height="20" /> Sublime</a> What Maya Used
+    - <a href="https://atom.io/"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.8oH16cKZ5SnqQ_xTFktumQHaHa%26pid%3DApi&f=1" alt="Atom Logo" data-canonical-src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.8oH16cKZ5SnqQ_xTFktumQHaHa%26pid%3DApi&f=1" width="20" height="20" /> Atom</a>
+    - <a href="https://www.vim.org/download.php"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.U1ebBdjloi5HABcKYTLbBAHaHa%26pid%3DApi&f=1" alt="Vim Logo" data-canonical-src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.U1ebBdjloi5HABcKYTLbBAHaHa%26pid%3DApi&f=1" width="20" height="20" /> Vim</a> Don't do this, or you'll find yourself the subject of the [vim meme](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpics.conservativememes.com%2Fwhen-you-finally-exit-vim-you-know-im-something-of-41849715.png&f=1&nofb=1)
+    - <a href="https://www.gnu.org/software/emacs/download.html"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.NHd_y1bhVYPfx9ynNaEjkgHaHa%26pid%3DApi&f=1" alt="Emacs Logo" data-canonical-src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.NHd_y1bhVYPfx9ynNaEjkgHaHa%26pid%3DApi&f=1" width="20" height="20" /> Emacs</a> Don't do this either, lol
+    - <a href="https://www.jetbrains.com/pycharm/download/"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.mnNeAoyYzh41NjwBEGzCJgAAAA%26pid%3DApi&f=1" alt="PyCharm Logo" data-canonical-src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.mnNeAoyYzh41NjwBEGzCJgAAAA%26pid%3DApi&f=1" width="20" height="20" /> PyCharm</a> I like using jet brain's IDEs and the community edition is free forever (probably overkill for you, but its nice)
+    It will also make this readme look pretty!
     
     Of course you can also use the text editors your OS already has installed 
     
@@ -61,6 +61,8 @@ Git bash
 ## Workflow
 
  1.) Sync with changes made by others to this repository
+ 
+ ***This is super important, always do this before you start working***
  
      git pull
      
