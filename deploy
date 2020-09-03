@@ -37,8 +37,8 @@ git push https://"$git_user":"$git_pass"@github.com/theheuman/ballet-website.git
 
 # send the file to server
 printf "\n\nEnter your pitt password"
-sftp -c aes128-cbc "${pitt_user}"@unixs.cssd.pitt.edu:../../../s/o/sorc/public/html/ballet <<< $'put website.tar'
+sftp -oKexAlgorithms=+diffie-hellman-group1-sha1 "${pitt_user}"@unixs.cssd.pitt.edu:../../../s/o/sorc/public/html/ballet <<< $'put website.tar'
 
 
 printf "\n\nEnter your pitt password (Again)"
-ssh -c aes128-cbc "${pitt_user}"@unixs.cssd.pitt.edu 'cd ../../../s/o/sorc/public/html/ballet && tar -xvf website.tar'
+ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 "${pitt_user}"@unixs.cssd.pitt.edu 'cd ../../../s/o/sorc/public/html/ballet && tar -xvf website.tar'
