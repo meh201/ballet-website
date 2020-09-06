@@ -9,6 +9,9 @@ by sorc.
 
 ## Getting Started
 
+I've also made a [youtube video tutorial](https://youtu.be/sPD_pM-jAdo) on how to get started, it will step you through getting started and some common changes
+
+
 The first thing you will do, regardless of system is create a [github account](https://github.com/join) and then requesting edit permissions to the repository from me: jacob.heuman@gmail.com
 
 
@@ -27,8 +30,11 @@ Windows setup will require an additional step, namely downloading a program call
 
 - run this command to "clone" this repository, this will download all the files
 
-
     ```git clone https://github.com/theheuman/ballet-website.git```
+    
+- change directory to the directory you just downloaded
+
+    ```cd ballet-website```
     
 
 - run setup script
